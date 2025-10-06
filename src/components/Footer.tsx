@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4 md:col-span-2 lg:col-span-1">
             <div className="flex items-center space-x-2">
-              <img src="/iconmalingkapok.PNG" alt="Maling Kapok Logo" className="h-8 w-8 object-contain" />
+              <img src="/asset/iconmalingkapok.PNG" alt="Maling Kapok Logo" className="h-8 w-8 object-contain" />
               <span className="font-heading text-xl font-bold">Maling Kapok</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">
