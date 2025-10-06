@@ -22,7 +22,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-all duration-300">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center space-x-2 group">
-          <img src="/asset/iconmalingkapok.PNG" alt="Maling Kapok Logo" className="h-8 w-8 object-contain transition-transform group-hover:scale-110 group-hover:rotate-6" />
+          <img src="/iconmalingkapok.PNG" alt="Maling Kapok Logo" className="h-8 w-8 object-contain transition-transform group-hover:scale-110 group-hover:rotate-6" />
           <span className="font-heading text-xl font-bold transition-colors group-hover:text-primary">Maling Kapok</span>
         </Link>
 
