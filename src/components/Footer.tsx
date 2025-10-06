@@ -91,7 +91,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start space-x-3">
                 <MapPin size={16} className="mt-1 flex-shrink-0 text-primary/70" />
-                <span>Jakarta, Indonesia</span>
+                <span>Jl. Terusan Ryacudu, Way Huwi, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung 35365, Indonesia</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={16} className="flex-shrink-0 text-primary/70" />

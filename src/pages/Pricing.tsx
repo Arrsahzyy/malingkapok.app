@@ -64,13 +64,13 @@ const Pricing = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-accent/10 via-secondary/10 to-primary/10">
-        <div className="container">
-          <div className="text-center space-y-6 max-w-3xl mx-auto">
-            <h1 className="font-heading text-4xl md:text-5xl font-bold">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-accent/10 via-secondary/10 to-primary/10">
+        <div className="container px-4 sm:px-6">
+          <div className="text-center space-y-4 sm:space-y-6 max-w-3xl mx-auto">
+            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold">
               Harga & Paket
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-base sm:text-lg text-muted-foreground px-4">
               Pilih paket yang sesuai dengan kebutuhan Anda. Semua paket sudah termasuk hardware sensor.
             </p>
           </div>
@@ -78,9 +78,9 @@ const Pricing = () => {
       </section>
 
       {/* Pricing Cards */}
-      <section className="py-20">
-        <div className="container">
-          <div className="grid md:grid-cols-3 gap-8">
+      <section className="py-12 sm:py-16 md:py-20">
+        <div className="container px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {plans.map((plan, index) => (
               <Card 
                 key={index} 
@@ -131,11 +131,11 @@ const Pricing = () => {
             ))}
           </div>
 
-          <div className="mt-16 text-center">
-            <p className="text-muted-foreground mb-4">
+          <div className="mt-12 sm:mt-16 text-center px-4">
+            <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">
               Semua paket sudah termasuk hardware sensor, instalasi, dan garansi 1 tahun
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs sm:text-sm text-muted-foreground">
               Harga belum termasuk PPN 11%. Pembayaran dapat dilakukan bulanan atau tahunan (diskon 15%)
             </p>
           </div>
@@ -143,9 +143,9 @@ const Pricing = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container max-w-3xl">
-          <h2 className="font-heading text-3xl font-bold text-center mb-12">
+      <section className="py-12 sm:py-16 md:py-20 bg-muted/30">
+        <div className="container px-4 sm:px-6 max-w-3xl">
+          <h2 className="font-heading text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">
             Pertanyaan Umum
           </h2>
           <div className="space-y-6">

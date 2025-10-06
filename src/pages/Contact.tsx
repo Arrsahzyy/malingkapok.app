@@ -209,7 +209,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Alamat</h3>
                       <p className="text-muted-foreground">
-                        Jakarta, Indonesia
+                        Jl. Terusan Ryacudu, Way Huwi, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung 35365, Indonesia
                       </p>
                       <p className="text-sm text-muted-foreground mt-1">
                         Kunjungi dengan perjanjian
